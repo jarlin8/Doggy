@@ -2,22 +2,14 @@
 aria-label="Calendar" role="img"
 viewBox="0 0 512 512">
 <script type="text/ecmascript"><![CDATA[
-function init() {
-  var time = new Date();
+function init() {var time = new Date();
   var locale = "cn-zh";
-
   var DD   = time.getDate();
   var DDD  = time.toLocaleString(locale, {weekday: "long" });
   var MMM  = time.toLocaleString(locale, {month:   "short"}).toUpperCase();
-
   document.getElementById("day").textContent= DD;
   document.getElementById("weekday").textContent= DDD;
   document.getElementById("month").textContent= MMM;
-  
-  // var DDDD = time.toLocaleString(locale, { weekday: "long" });
-  // var MM   = time.getMonth() + 1;
-  // var MMMM = time.toLocaleString(locale, {month: "long"});
-  // var YYYY = time.getFullYear();
 }
 ]]></script>
 
@@ -35,9 +27,9 @@ function init() {
 
 <text id="month"
   x="32" 
-  y="164" 
+  y="158" 
   fill="#fff" 
-  font-family="monospace"
+  font-family="system-ui"
   font-size="140px"
   style="text-anchor: left">FEB</text>
 
@@ -45,7 +37,7 @@ function init() {
   x="256" 
   y="400" 
   fill="#66757f" 
-  font-family="monospace"
+  font-family="system-ui"
   font-size="256px"
   style="text-anchor: middle">29</text>
 
@@ -53,7 +45,7 @@ function init() {
   x="256" 
   y="480" 
   fill="#66757f" 
-  font-family="monospace"
+  font-family="system-ui"
   font-size="64px"
   style="text-anchor: middle">Sunday</text>
 </svg>
