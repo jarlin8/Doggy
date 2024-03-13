@@ -1,4 +1,4 @@
-import { Crypto, load, _, jinja2 } from './lib/cat.js';
+import { Crypto, load, _, jinja2 } from 'https://fastly.jsdelivr.net/gh/jarlin8/OSS@main/catTV/js/lib/cat.js';
 
 let key = 'yjys';
 let HOST = 'https://m.7caa.com';

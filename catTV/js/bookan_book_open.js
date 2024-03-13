@@ -1,4 +1,4 @@
-import { _ } from './lib/cat.js';
+import { _ } from 'https://fastly.jsdelivr.net/gh/jarlin8/OSS@main/catTV/js/lib/cat.js';
 
 let key = 'bookkan';
 let url = 'https://api.bookan.com.cn';

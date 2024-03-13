@@ -1,5 +1,5 @@
-import { _ } from './lib/cat.js';
-import { findBestLCS } from './lib/similarity.js';
+import { _ } from 'https://fastly.jsdelivr.net/gh/jarlin8/OSS@main/catTV/js/lib/cat.js';
+import { findBestLCS } from 'https://fastly.jsdelivr.net/gh/jarlin8/OSS@main/catTV/js/lib/similarity.js';
 
 const http = async function (url, options = {}) {
     if (options.method == 'POST' && options.data) {

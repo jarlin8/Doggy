@@ -1,6 +1,6 @@
 import {load, _, Uri} from 'assets://js/lib/cat.js';
-import {log} from './lib/utils.js';
-import {initAli, detailContent, playContent}  from './lib/ali.js';
+import {log} from 'https://fastly.jsdelivr.net/gh/jarlin8/OSS@main/catTV/js/lib/utils.js';
+import {initAli, detailContent, playContent}  from 'https://fastly.jsdelivr.net/gh/jarlin8/OSS@main/catTV/js/lib/ali.js';
 
 let siteKey = 'wobg';
 let siteType = 0;

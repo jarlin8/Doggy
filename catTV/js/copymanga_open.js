@@ -1,4 +1,4 @@
-import { Crypto, _, load } from './lib/cat.js';
+import { Crypto, _, load } from 'https://fastly.jsdelivr.net/gh/jarlin8/OSS@main/catTV/js/lib/cat.js';
 
 let key = 'copymanga';
 let url = 'https://www.mangacopy.com';

@@ -1,4 +1,4 @@
-import { Crypto, load, _ } from './lib/cat.js';
+import { Crypto, load, _ } from 'https://fastly.jsdelivr.net/gh/jarlin8/OSS@main/catTV/js/lib/cat.js';
 
 let siteUrl = 'https://m.360ba.co/';
 let siteKey = '';

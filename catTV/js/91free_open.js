@@ -1,4 +1,4 @@
-import { Crypto, load, _ } from './lib/cat.js';
+import { Crypto, load, _ } from 'https://fastly.jsdelivr.net/gh/jarlin8/OSS@main/catTV/js/lib/cat.js';
 
 let key = '1free';
 let HOST = 'https://91d.top';//歪片星球.com

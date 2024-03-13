@@ -1,6 +1,6 @@
 // 搜索数字验证
 // 20230812 变更 分类&筛选
-import { Crypto, load, _ } from './lib/cat.js';
+import { Crypto, load, _ } from 'https://fastly.jsdelivr.net/gh/jarlin8/OSS@main/catTV/js/lib/cat.js';
 let key = "素白白",
     url = "https://www.subaibaiys.com",
     siteKey = "",

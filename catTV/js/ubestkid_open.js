@@ -1,5 +1,5 @@
 // 无搜索功能
-import { _ } from './lib/cat.js';
+import { _ } from 'https://fastly.jsdelivr.net/gh/jarlin8/OSS@main/catTV/js/lib/cat.js';
 let key = '🐯贝乐虎';
 let HOST = 'https://vd.ubestkid.com';
 let siteKey = '';

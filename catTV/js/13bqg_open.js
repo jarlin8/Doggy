@@ -1,4 +1,4 @@
-import { _, load } from './lib/cat.js';
+import { _, load } from 'https://fastly.jsdelivr.net/gh/jarlin8/OSS@main/catTV/js/lib/cat.js';
 
 let key = '13bqg';
 let url = 'https://m.13bqg.cc';

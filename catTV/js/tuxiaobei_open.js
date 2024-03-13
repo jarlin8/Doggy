@@ -1,4 +1,4 @@
-import { load, _ } from './lib/cat.js';
+import { load, _ } from 'https://fastly.jsdelivr.net/gh/jarlin8/OSS@main/catTV/js/lib/cat.js';
 let key = '🐰兔小贝';
 let HOST = 'https://www.tuxiaobei.com';
 let siteKey = '';
